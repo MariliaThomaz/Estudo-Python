@@ -191,4 +191,7 @@ try:
     convet_floar = float(teste_num)
     print(f'O dobro do número digitado{convet_floar} é {teste_num *2}')
 except:
-    print('Isso não é um número')m
+    print('Isso não é um número')
+
+#Vendo o valor da identificação  da  memoria das variáveis = id
+print('vendo o ID da vaivebel :',id(nome))
