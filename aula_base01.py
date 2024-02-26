@@ -147,8 +147,14 @@ print('é' in pega)
 print('v' in  pega)
 
 print('********************************************************')
+
 #Interpolação 
 #Interpolação de strings
+# s - string
+# d e i - int
+# f - float
+# x e X - Hexadecimal 
+
 nome2 = 'Patrica'
 preco = 50000000.4050
 esibe1 = '%s, o preço é R$:.2%f ' % (nome2,preco)
