@@ -64,3 +64,23 @@ print(imc)
 # fomartação de texto para exibir
 # qunapd ver - > f <-  é  significa que a formatação o seu nome é "f-strings"
 print(f'{nome} tem {altura} o seu peso é: {peso} seu IMC {imc:.2f}')
+
+#Tudo em pyton é objeto, O porquê porque todos os objetos têm métodos dentro dele
+#E o que característica de um objeto todo objeto tem ações que são métodos coisas que ele pode fazer
+#Usando uma função para mudar o objeto
+
+a = 'A'
+b = 'B'
+c = 8.999
+# Isso é um método -> .format()
+fomando =  'a={} b={} c={:.2f}'.format(a,b,c)
+print(f'formatando usando um metodo: {fomando}')
+
+#Parâmetro nomeado
+m = 'M'
+v = 'V'
+t = 4.012350
+# Isso é um método -> .format()
+strig = 'm={nome1} v={nome2} t={nome3}'
+fomatando = strig.format(nome1=m,nome2=v,nome3=t)
+print(fomatando)
