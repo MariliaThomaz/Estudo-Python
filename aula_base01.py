@@ -162,3 +162,19 @@ print (esibe1)
 
 #Hexadecimal
 print('o hexadecimal de %d é %08X' % (1500,1500))
+
+# Fatiamento de strings
+fatiamento = 'Two roads diverged in a wood, and I— I took the one less traveled by, And that has made all the difference.'
+
+# fatimento [i:f:p] [::]
+print(fatiamento[4:8])
+print(fatiamento[8:])
+
+# Ele conta a quantidade de caracteres
+print(len(fatiamento))
+
+# fatimento [i:f:p] 
+# i = indees 
+# f parada
+# p é  numeop de  Passos  É a quantidade de pulo que vai dar
+print(fatiamento[4:8:3])
