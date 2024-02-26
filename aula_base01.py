@@ -84,3 +84,22 @@ t = 4.012350
 strig = 'm={nome1} v={nome2} t={nome3}'
 fomatando = strig.format(nome1=m,nome2=v,nome3=t)
 print(fomatando)
+
+#Input é como coletar dados do usuário
+#input é uma  função 
+
+""" input('Qual é seu nome: ')"""
+
+#Para coletar os dados do input tem que sempre lembrar que é retornado no tipo d string
+#Devido ela ser do tipo de string você tem que fazer a conversão no caso de precisar, Tipos numéricos
+
+nome = input('Qual é seu nome: ')
+
+idade1 = int(input('Qual é a sua idade: '))
+autura = input('Qual é a sua altura: ')
+print(f'O nome  é: {nome}, idade: {idade1}, altura:  {altura}')
+
+capirue_altura_convete_float = float(autura)
+somando = idade1 + capirue_altura_convete_float
+
+print(f'Soma da altura: {capirue_altura_convete_float} + {idade1} idade = {somando}')
