@@ -145,3 +145,14 @@ print(pega[3])
 #pega um valo
 print('é' in pega)
 print('v' in  pega)
+
+print('********************************************************')
+#Interpolação 
+#Interpolação de strings
+nome2 = 'Patrica'
+preco = 50000000.4050
+esibe1 = '%s, o preço é R$:.2%f ' % (nome2,preco)
+print (esibe1)
+
+#Hexadecimal
+print('o hexadecimal de %d é %08X' % (1500,1500))
