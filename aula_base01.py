@@ -181,3 +181,14 @@ print(fatiamento[4:8:3])
 
 #Invertendo nome através do fatiamento
 print(f'Invertendo o nome através do fatiamento: {nome[::-1]}')
+
+#tratamento de exeção  -> try/execept
+#Tratamto de erro
+teste_num = input('Digite um número: ')
+
+try:
+    print('Exibindo o que foi digitado:', teste_num)
+    convet_floar = float(teste_num)
+    print(f'O dobro do número digitado{convet_floar} é {teste_num *2}')
+except:
+    print('Isso não é um número')m
