@@ -116,3 +116,14 @@ elif entrada == 'sair' or   entrada == 's':
     print('saida')
 else:
     print("Você digitou nenhuma das alternativas")
+
+#**************** vendo qual é valo menor
+primo_n = input('Digite o primeiro número: ')
+cegundo_n =input('Digite o segundo número: ')
+
+if(primo_n < cegundo_n):
+    print(f'o Segundo número é maior {cegundo_n}')
+elif(primo_n == cegundo_n):
+    print('Os 2 números são iguais')
+else:
+     print(f'o Primeiro número é maior {primo_n}')
