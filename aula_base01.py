@@ -121,9 +121,27 @@ else:
 primo_n = input('Digite o primeiro número: ')
 cegundo_n =input('Digite o segundo número: ')
 
-if(primo_n < cegundo_n):
-    print(f'o Segundo número é maior {cegundo_n}')
+if(primo_n > cegundo_n):
+    print(f' o Primeiro número é maior {primo_n}')
 elif(primo_n == cegundo_n):
     print('Os 2 números são iguais')
 else:
-     print(f'o Primeiro número é maior {primo_n}')
+     print(f'o Segundo número é maior {cegundo_n}')
+
+     #Avaliação de curto circuito
+     print(True and 0 and True)
+
+     #Avaliação de curto circuito
+     print(True or 0 or True)
+
+     #operadore in not  in
+    #strings são interáveis
+    #Isto quer dizer que eu posso pegar caracter por caracter através do Python
+    
+pega = 'julia é  muito bonita'
+
+print(pega[3])
+
+#pega um valo
+print('é' in pega)
+print('v' in  pega)
