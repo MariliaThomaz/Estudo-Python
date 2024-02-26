@@ -96,6 +96,7 @@ print(fomatando)
 nome = input('Qual é seu nome: ')
 
 idade1 = int(input('Qual é a sua idade: '))
+
 autura = input('Qual é a sua altura: ')
 print(f'O nome  é: {nome}, idade: {idade1}, altura:  {altura}')
 
@@ -103,3 +104,15 @@ capirue_altura_convete_float = float(autura)
 somando = idade1 + capirue_altura_convete_float
 
 print(f'Soma da altura: {capirue_altura_convete_float} + {idade1} idade = {somando}')
+
+#Operadores condicionais
+entrada = input('Você quer entrar ou sair? ')
+if entrada == 'entrda' or   entrada == 'e':
+    print('Continue')
+#elif = se não se
+#Observando o elite você consegue fazer condições 
+#Em vez de você usar um novo i fi você usa ele Elif
+elif entrada == 'sair' or   entrada == 's':
+    print('saida')
+else:
+    print("Você digitou nenhuma das alternativas")
