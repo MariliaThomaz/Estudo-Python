@@ -178,3 +178,6 @@ print(len(fatiamento))
 # f parada
 # p é  numeop de  Passos  É a quantidade de pulo que vai dar
 print(fatiamento[4:8:3])
+
+#Invertendo nome através do fatiamento
+print(f'Invertendo o nome através do fatiamento: {nome[::-1]}')
