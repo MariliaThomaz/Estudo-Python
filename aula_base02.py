@@ -10,7 +10,7 @@
 # repetiçõea com while
 #A estrutura de repetição essa é com condição
 #Essa estrutura se você não der um fim para ela ela vai se tornar infinita
-
+'''
 condicao =  True
 
 while condicao:
@@ -60,3 +60,24 @@ while cont <= 30:
     print(cont)
     if cont == 29:
         break
+    
+#estudando laço de repetição com dois While
+'''
+qtd_linhas = 5
+qtd_coluna = 5
+
+linha =1
+
+while linha <= qtd_linhas:
+    coluna =1
+    while coluna <= qtd_coluna:
+        print(f'{linha=}, {coluna=}')
+        coluna += 1
+    linha +=1
+
+#  o while esta  na  linha  71 É como se fosse um círculo maior
+# o whule  linha  73 outro Círculo.
+#Basicamente o que acontece é que o primeiro circo quanto completa 
+# a sua volta o outro em seguida executa sua ação.
+
+
