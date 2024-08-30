@@ -1,31 +1,61 @@
 #Desenvolvendo uma calculadora simples usando laço de repetição
 #
-while True:
 
+numero1_covite_flo =0.0
+numero2_covite_flo =0.0
+numero2_covite_int =0
+numero1_covite_int =0
+while True:
+    nf2=0
+    nf1=0
+ 
     print('Ola esta  na Calciladora.')
 
     numero1 = input('Digite o primero nuemro =')
-    numero1_covite_int = int(numero1)
-    numero1_covite_flo = float(numero1)
 
+    if '.' in numero1:
+        numero1_covite_flo = float(numero1)
+        
+        nf1 =+1
+    
+    else:
+        numero1_covite_int = int(numero1)
 
     numero2 = input('Digite o segundo nuemro =')
-    numero2_covite_int = int(numero2)
-    numero2_covite_flo = float(numero2)
 
+    if '.' in numero2:
+
+        numero2_covite_flo = float(numero2)
+        nf2 =+1
+    else:
+        numero2_covite_int = int(numero2)
     
+
 
     operador = input('Infome qual operador matetido: +, - , / ou * ')
 
     if operador == '+':
-        somaint = numero1_covite_int + numero2_covite_int
-        print(f'Soma int; {somaint}')
+        if nf1 == 1 and ( nf2 ==1): 
+             somaflot = numero1_covite_flo + numero2_covite_flo
+             print(f'Soma float; {somaflot}')
 
-    elif  operador == '+':
-        somaflot = numero1_covite_flo + numero2_covite_flo
-        print(f'Soma float; {somaflot}')
+        elif nf1 == 0  and  nf2 == 1:
+            soma_I_f = numero1_covite_int + numero1_covite_flo
+            print(f'Soma: {soma_I_f=}')
+          
+        elif nf1 == 1 and  nf2 == 0:
+            soma_F_I = numero1_covite_flo + numero1_covite_int
+            print(F'Soma: {soma_F_I=}')
+            
+        elif nf1 == 0 and  nf2 ==  0:
+          somaint = numero1_covite_int + numero2_covite_int
+          print(f'Soma int; {somaint}')
 
+    if operador == '-':
+        ...
+        
 
+        
        
     
      
