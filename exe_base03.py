@@ -51,8 +51,61 @@ while True:
           somaint = numero1_covite_int + numero2_covite_int
           print(f'Soma int; {somaint}')
 
-    if operador == '-':
-        ...
+    elif operador == '-':
+         
+        if nf1 == 1 and ( nf2 ==1): 
+             negF_F =  numero1_covite_flo - numero2_covite_flo
+             print(f'Subritração: {negF_F=}')
+
+        elif nf1 == 0  and  nf2 == 1:
+            negaI_F = numero1_covite_int - numero1_covite_flo
+            print(f'Subritração {negaI_F=}')
+          
+        elif nf1 == 1 and  nf2 == 0:
+           nega_F_I = numero1_covite_flo - numero1_covite_int
+           print(F'Subritração {nega_F_I=}')
+        
+        elif nf1 == 0 and  nf2 ==  0:
+          negaI_I = numero1_covite_int - numero2_covite_int
+          print(f'Subritração {negaI_I=}')
+
+    elif operador == '/':
+         
+        if nf1 == 1 and ( nf2 ==1): 
+             divF_F =  numero1_covite_flo / numero2_covite_flo
+             print(f'Divisão: {divF_F=}')
+
+        elif nf1 == 0  and  nf2 == 1:
+            divI_F = numero1_covite_int / numero1_covite_flo
+            print(f'Divisão: {divI_F=}')
+          
+        elif nf1 == 1 and  nf2 == 0:
+           div_F_I = numero1_covite_flo / numero1_covite_int
+           print(F'Divisão {div_F_I=}')
+        
+        elif nf1 == 0 and  nf2 ==  0:
+          divI_I = numero1_covite_int / numero2_covite_int
+          print(f'Divisão {divI_I=}')
+
+    elif operador == '*':
+         
+        if nf1 == 1 and ( nf2 ==1): 
+             vesF_F =  numero1_covite_flo * numero2_covite_flo
+             print(f'Multiplicação: {vesF_F=}')
+
+        elif nf1 == 0  and  nf2 == 1:
+            vesI_F = numero1_covite_int * numero1_covite_flo
+            print(f'Multiplicação {vesI_F=}')
+          
+        elif nf1 == 1 and  nf2 == 0:
+           ves_F_I = numero1_covite_flo * numero1_covite_int
+           print(F'Multiplicação {ves_F_I=}')
+        
+        elif nf1 == 0 and  nf2 ==  0:
+          vesI_I = numero1_covite_int * numero2_covite_int
+          print(f'Multiplicação {vesI_I=}')
+
+
         
 
         
