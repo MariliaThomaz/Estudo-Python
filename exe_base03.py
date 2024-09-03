@@ -10,7 +10,7 @@ while True:
     nf1=0
  
     print('Ola esta  na Calciladora.')
-
+    
     numero1 = input('Digite o primero nuemro =')
 
     if '.' in numero1:
@@ -106,18 +106,8 @@ while True:
           print(f'Multiplicação {vesI_I=}')
 
 
-        
-
-        
-       
     
-     
-
-
-
-
   
-    
 
 
 
