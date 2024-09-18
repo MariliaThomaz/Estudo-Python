@@ -13,3 +13,5 @@ else:
     print('O else foi executado.')
 
 print('fora do while.')
+
+
