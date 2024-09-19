@@ -42,3 +42,11 @@ for i  in range(10):
         print(i,j)
 else:
     print('For completo com sucesso! ')
+
+
+# Lista com laço de repetição for
+
+lista = ['Pedro','Giovana','Catarina']
+
+for nome in  lista:
+    print(nome)
