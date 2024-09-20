@@ -47,6 +47,10 @@ else:
 # Lista com laço de repetição for
 
 lista = ['Pedro','Giovana','Catarina']
+#para  ver Indeces
+indices =  range(len(lista))
 
-for nome in  lista:
-    print(nome)
+for indice in  indices:
+    
+    print(indice, lista[indice])
+   
