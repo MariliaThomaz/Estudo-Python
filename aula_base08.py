@@ -30,3 +30,11 @@ print(f'restante da lista: {_}')
 # uma prática de programação para identificar pra 
 # outros programadores que esse dado que está
 #sendo colocado ali não é um valor que será utilizado durante o código
+
+'''
+tipo tupla - Uma Lista imutável
+'''
+# cria  tupla é  não usar  os []
+
+nomes_tupla = 'Carolina', 'José', 'Marília', 'Paula'
+print(type(nomes_tupla))
