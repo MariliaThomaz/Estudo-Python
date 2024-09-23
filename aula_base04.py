@@ -54,3 +54,18 @@ for indice in  indices:
     
     print(indice, lista[indice])
    
+
+
+#Outra maneira de numerar 
+lista_nume = ['Pedro','Giovana','Catarina']
+
+lista_numerda = enumerate(lista_nume) #Esse método recebe alista ele inúmera a lista
+print(lista_numerda)#elocal de  memoria É o índice da memória Integrator
+
+print(next(lista_numerda))
+#usando  o next Irá pegar o primeiro valor
+#Se você observar agora nós temos tupla
+
+for item in lista_numerda:
+    print(item)
+
