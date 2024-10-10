@@ -66,6 +66,16 @@ print(next(lista_numerda))
 #usando  o next Irá pegar o primeiro valor
 #Se você observar agora nós temos tupla
 
-for item in lista_numerda:
-    print(item)
+#lista_numerda = list(enumerate(lista_nume))
 
+#Você observa que agora a gente tem uma Tupla
+#tem  dois valore índice e o nome
+'''for item in lista_numerda:
+    ind, nome =  item
+    print(ind,nome)
+'''
+
+
+#Outra maneira é colocar o índice junto com o nome dentro do for
+for ind, nome in lista_numerda:
+     print(ind,nome)
