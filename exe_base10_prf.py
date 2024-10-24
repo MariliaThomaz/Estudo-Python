@@ -23,3 +23,11 @@ digito2 =(resultado * 10) % 11
 digito2 = digito2 if digito2 <= 9 else 0
         
 print(digito2)
+
+#fazer a validação do cpf
+cpf_gerado_pelo_calculo =  f'{nove_digitos}{digito1}{digito2}'
+ 
+if cpf_gerado_pelo_calculo == cpf_gerado_pelo_calculo:
+     print(f'{cpf_gerado_pelo_calculo} é valido')
+else:
+    print('CPF inválido')
