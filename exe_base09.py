@@ -23,8 +23,9 @@ contrário disso:
 
 O primeiro dígito do CPF é 7
 """
-
+sair = ' '
 while True:
+  
 
     usario_cpf = input ("Digite as CPF: ")
     cotaguem_cpf=len(usario_cpf)
@@ -44,6 +45,7 @@ while True:
         nove_numero_cpf =(despaconta[:9])
         
         #10
+
         des= int(nove_numero_cpf[0])
         vese_des= des * 10 
         print(f'10x{des}= {vese_des}')
@@ -102,4 +104,20 @@ while True:
         print(f'restado 0')
     else:
          print(f'resultado é o valor da conta')
+  
+  #fazendo validação do segundo número do cpf    
+    des_numero_cpf =(despaconta[:10])   
+    contador_regressivo =11
+
+    resultado =0
+
+    for digito in  des_numero_cpf:
+            resultado += int(digito) * contador_regressivo
+            contador_regressivo -= 1
+    digito1 =(resultado * 10) % 11
+    digito1 = digito1 if digito1 <= 9 else 0
+        
+    print(digito1)
+
+   
   
