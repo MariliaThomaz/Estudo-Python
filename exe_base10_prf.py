@@ -1,3 +1,6 @@
+#Outro módulo do PY tom
+import sys
+
 # expressão regular
 # sub (significa substituir)
 entrada = input('CPF: ' )
@@ -5,8 +8,19 @@ import re
 cpf = re.sub(
     r'[^0-9]', '',
     entrada)
-
+#Verificando dados do usuário se não são valores repetidos
+entrada_e_sequencial = entrada == entrada[0] *len(entrada)
 #replase tira algoo que  não qurtr
+
+#Em casos que o usuário envie dados sequência pode
+#fazer uma vez Verificação e fazer ele sair do sistema
+
+if entrada_e_sequencial:
+     print("Você enviou dado sequência")
+     sys.exit()#Vai executar uma ação que da qual irá fazer usuário sair do sistema
+
+
+
 '''
 cpf = '746.824.890-70' .replace('.', '')
 '''
@@ -24,6 +38,7 @@ print(digito1)
 
 #validação do segundo dígito
 des_numero_cpf = nove_digitos + str(digito1)
+
 resultado2 =0
 contador_regressivo2 =11
 for digito in  des_numero_cpf:
