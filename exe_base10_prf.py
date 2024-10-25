@@ -1,5 +1,15 @@
+# expressão regular
+# sub (significa substituir)
+entrada = input('CPF: ' )
+import re
+cpf = re.sub(
+    r'[^0-9]', '',
+    entrada)
 
-cpf = '74682489070'
+#replase tira algoo que  não qurtr
+'''
+cpf = '746.824.890-70' .replace('.', '')
+'''
 nove_digitos = cpf[:9]
 contador_regressivo =10
 
