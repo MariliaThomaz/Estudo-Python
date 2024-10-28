@@ -12,7 +12,7 @@ def sadacao(nome):
     
 sadacao('Marilia')
 '''
-
+'''
 def multiplo_de(numero, multiplo):
     resultado = numero % multiplo == 0
     print(f'{numero} é multiplo de  {multiplo}, end =' ' ')
@@ -21,3 +21,23 @@ def multiplo_de(numero, multiplo):
 multiplo_de(16,8)
 multiplo_de(15,3)
 multiplo_de(10,2)
+'''
+
+
+
+'''
+Argumentos nomeados e não nomeados em funções Python
+Argumentos nomeados tem nome com sinal de igual
+Argumentos não nomeado recebe apenas um argumento (valor)
+'''
+
+#Argumento posicional
+def soma(x,y):
+    print(f'x={x} y={y}','|','x+y=',x+y)
+    
+soma(1,2)
+#O fato de ser posicional é porque você 
+# depende da ordem dos valores
+
+soma(y=20,x=30)
+#Esse já é um argumento nomeado
