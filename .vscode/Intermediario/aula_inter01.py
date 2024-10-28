@@ -41,3 +41,7 @@ soma(1,2)
 
 soma(y=20,x=30)
 #Esse já é um argumento nomeado
+#Você pode colocar argumentos nomeados em casos de não nomeados
+# como soma(20,x=30, z=40)
+#Mas a partir de que você começa colocar argumentos nomeado
+#Você tem que colocar o restante sem argumentos todos nomeados
