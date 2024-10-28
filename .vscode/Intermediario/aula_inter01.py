@@ -30,7 +30,7 @@ Argumentos nomeados e não nomeados em funções Python
 Argumentos nomeados tem nome com sinal de igual
 Argumentos não nomeado recebe apenas um argumento (valor)
 '''
-
+'''
 #Argumento posicional
 def soma(x,y):
     print(f'x={x} y={y}','|','x+y=',x+y)
@@ -45,3 +45,31 @@ soma(y=20,x=30)
 # como soma(20,x=30, z=40)
 #Mas a partir de que você começa colocar argumentos nomeado
 #Você tem que colocar o restante sem argumentos todos nomeados
+
+'''
+
+'''
+Valores padrões para parâmetros
+Ao definir uma função os parâmetros podem
+Ter valores Padrões caso o valor não seja
+Envi ando para parâmetros, Valor padrão será
+usado
+'''
+#Definindo um não valor
+#O (Z) é uma definição de um valor padrão
+#Ao definir um valor padrão é 
+# e você mudar a ordem da definições dos parâmetros
+#Você não pode deixar de definir os valores dos parâmetros
+#def verifica(x,y=None,z=None):
+def verifica(x,y,z=None):
+    if z is not None:
+        print(f'{x=} {y=} {z=}', x+y+z)
+    else:
+        print(f'{x=} {y=}', x+y)
+        
+verifica(2,6)
+verifica(80,45)
+verifica(74,24,33)
+#Colocar no parâmetro um tipo None
+#Isto ajuda em caso você não sabe se tera um argumento
+
